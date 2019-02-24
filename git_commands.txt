@@ -1,0 +1,22 @@
+1) yum install git
+
+==> To install git
+
+2) git init
+==> to init directory as local git repo
+3) git status
+==> to check git status
+
+4) git add cmd_hist.txt
+==> Add file to stage area
+
+5) git commit -m "My first commit on 172.31.19.237"
+
+==> commit file is local git
+
+6) git remote add origin https://github.com/prasadWagh2/Ethans_DevOps.git
+==> connect local repo to remot repo
+
+7) git push -u origin master
+==> push local commited file to remote repo
+
