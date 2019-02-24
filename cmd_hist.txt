@@ -1,0 +1,26 @@
+    1  pwd
+    2  yum install tree -y
+    3  tree
+    4  tree /
+    5  clear
+    6  which tree
+    7  which
+    8  rpm -qa | grep tree
+    9  rpm -qa 
+   10  ls -lrt
+   11  pwd
+   12  ssh-keygen -t rsa
+   13  cd  /root/.ssh
+   14  ls -lrt
+   15  cat id_rsa.pub
+   16  ssh root@172.31.27.101
+   17  cd /opt
+   18  mkdir Ethans_DevOps
+   19  ls -lrt
+   20  yum install git
+   21  pwd
+   22  ls
+   23  cd Ethans_DevOps
+   24  git init
+   25  history
+   26  history > cmd_hist.txt
