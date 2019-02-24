@@ -24,3 +24,12 @@
    24  git init
    25  history
    26  history > cmd_hist.txt
+   27  git status
+   28  git add cmd_hist.txt
+   29  git status
+   30  git commit -m "My first commit on 172.31.19.237"
+   31  git status
+   32  git remote add origin https://github.com/prasadWagh2/Ethans_DevOps.git
+   33  git push -u origin master
+   34  history
+   35   history > cmd_hist.txt
