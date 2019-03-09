@@ -1,0 +1,43 @@
+
+For PasswordBased Authentication
+
+configuration in file  /etc/ssh/ssh_config
+
+# To disable tunneled clear text passwords, change to no here!
+PasswordAuthentication yes
+#PermitEmptyPasswords no
+#PasswordAuthentication no
+
+Set prmit root login to yes
+
+PermitRootLogin yes
+
+Run Below Command 
+
+service sshd restart
+
+ sudo su root
+Mar#2019
+
+
+To Copy file from Local Windows to Remote unix 
+In GIT
+
+$scp -i [pemfilepath] "Source File path"  ec2-user@<ipAddress>:Destination path
+
+
+WINDOWS to unix
+
+SCP Using Private Key
+
+scp -i C:/Users/dbamhane/Downloads/prasad-centos.pem C:/Rupali/Ethans.txt ec2-user@13.233.149.110:/tmp
+
+SCP using Password Aunttication 
+
+scp -v  C:/Users/dbamhane/Downloads/prasad-centos.pem ec2-user@13.233.149.110:/tmp
+
+UNIX to UNIX
+
+Password Less File Transfer 
+
+scp prasad-centos.pem root@172.31.27.101:/opt
